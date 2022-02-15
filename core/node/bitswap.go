@@ -3,8 +3,8 @@ package node
 import (
 	"context"
 
-	"github.com/ipfs/go-bitswap"
-	"github.com/ipfs/go-bitswap/network"
+	bitswap "github.com/Genon2/ipfs-thesis-bitswap"
+	"github.com/Genon2/ipfs-thesis-bitswap/network"
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
 	config "github.com/ipfs/go-ipfs-config"
 	exchange "github.com/ipfs/go-ipfs-exchange-interface"

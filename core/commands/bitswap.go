@@ -7,8 +7,8 @@ import (
 	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 
+	bitswap "github.com/Genon2/ipfs-thesis-bitswap"
 	humanize "github.com/dustin/go-humanize"
-	bitswap "github.com/ipfs/go-bitswap"
 	decision "github.com/ipfs/go-bitswap/decision"
 	cidutil "github.com/ipfs/go-cidutil"
 	cmds "github.com/ipfs/go-ipfs-cmds"

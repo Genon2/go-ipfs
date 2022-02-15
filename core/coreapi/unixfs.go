@@ -185,7 +185,10 @@ func (api *UnixfsAPI) Get(ctx context.Context, p path.Path) (files.Node, error) 
 	if err != nil {
 		return nil, err
 	}
-
+	fmt.Println("PRINTING RESOLVE NODE:")
+	fmt.Println(nd)
+	fmt.Println("PRINTING PATH 2 :")
+	fmt.Println(p)
 	return unixfile.NewUnixfsFile(ctx, ses.dag, nd)
 }
 
