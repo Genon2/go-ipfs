@@ -13,7 +13,7 @@ import (
 	"github.com/testground/sdk-go/sync"
 
 	bitswap "github.com/Genon2/ipfs-thesis-bitswap"
-	bsnet "github.com/ipfs/go-bitswap/network"
+	bsnet "github.com/Genon2/ipfs-thesis-bitswap/network"
 	block "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	datastore "github.com/ipfs/go-datastore"
