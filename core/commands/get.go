@@ -123,6 +123,8 @@ may also specify the level of compression by specifying '-l=<1-9>'.
 				Size:        int64(res.Length()),
 			}
 
+			fmt.Printf("[%s] writing file to disk", outPath)
+
 			return gw.Write(outReader, outPath)
 		},
 	},
