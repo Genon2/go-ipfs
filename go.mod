@@ -3,7 +3,7 @@ module github.com/ipfs/go-ipfs
 require (
 	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
-	github.com/Genon2/ipfs-thesis-bitswap v0.0.0-20220222101330-e3ae9e69b9f1 // indirect
+	github.com/Genon2/ipfs-thesis-bitswap v0.0.0-20220222140906-58127d643b02 // indirect
 	github.com/blang/semver/v4 v4.0.0
 	github.com/ceramicnetwork/go-dag-jose v0.1.0
 	github.com/cheggaaa/pb v1.0.29
