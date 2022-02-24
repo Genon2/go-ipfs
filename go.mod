@@ -3,7 +3,7 @@ module github.com/ipfs/go-ipfs
 require (
 	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
-	github.com/Genon2/ipfs-thesis-bitswap v0.0.0-20220222140906-58127d643b02 // indirect
+	github.com/Genon2/ipfs-thesis-bitswap v0.0.0-20220223102419-2940ffb1ec8c
 	github.com/blang/semver/v4 v4.0.0
 	github.com/ceramicnetwork/go-dag-jose v0.1.0
 	github.com/cheggaaa/pb v1.0.29
@@ -14,7 +14,6 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.0
 	github.com/go-bindata/go-bindata/v3 v3.1.3
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/ipfs/go-bitswap v0.5.1
 	github.com/ipfs/go-block-format v0.0.3
 	github.com/ipfs/go-blockservice v0.2.1
 	github.com/ipfs/go-cid v0.1.0
@@ -111,5 +110,6 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20211025112917-711f33c9992c
 )
+replace "github.com/Genon2/ipfs-thesis-bitswap" v0.0.0-20220223102419-2940ffb1ec8c => "../../git/ipfs-thesis-bitswap"
 
 go 1.16
