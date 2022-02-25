@@ -3,7 +3,7 @@ module github.com/ipfs/go-ipfs
 require (
 	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
-	github.com/Genon2/ipfs-thesis-bitswap v0.0.0-20220223102419-2940ffb1ec8c
+github.com/Genon2/ipfs-thesis-bitswap BITSWAP
 	github.com/blang/semver/v4 v4.0.0
 	github.com/ceramicnetwork/go-dag-jose v0.1.0
 	github.com/cheggaaa/pb v1.0.29
@@ -110,6 +110,5 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20211025112917-711f33c9992c
 )
-replace "github.com/Genon2/ipfs-thesis-bitswap" v0.0.0-20220223102419-2940ffb1ec8c => "../../git/ipfs-thesis-bitswap"
 
 go 1.16
